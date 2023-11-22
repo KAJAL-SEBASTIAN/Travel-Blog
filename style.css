@@ -1,0 +1,206 @@
+.banner{
+    width: 100%;
+    height: 550px;
+    background-image: url('https://cdn.pixabay.com/photo/2018/07/16/16/08/island-3542290_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    position: absolute;
+    border: 2px ridge rgb(15, 15, 14);
+    top: 370px;
+    left: 5%;
+    box-shadow: 3px 4px 6px rgb(12, 12, 11);
+    width: 350px;
+    height: 200px;
+  
+}
+
+.overlay:hover{
+    position: absolute;
+    border: 4px ridge rgb(35, 53, 16);
+    top: 350px;
+    box-shadow: 4px 5px 6px rgb(10, 10, 10);
+    width: 400px;
+    height: 250px;
+}
+
+h3{
+    font-family: Roboto,HelveticaNeue,Arial, sans-serif;
+}
+
+
+.row1{
+    display:flex;
+}
+
+
+.row2{
+    display: flex;
+    
+}
+.row2 img{
+    border: 2px solid rgb(71, 151, 147);
+    border-radius: 30px;
+    width: 335px;
+    height: 300px;
+}
+
+
+.bio{
+    width: 600px;
+    margin: 30px;
+    margin-left: 50px;
+    color: rgb(69, 119, 119);
+}
+.bimg{
+    display: flex;
+    margin: 30px;
+}
+.imgg{
+    margin: 30px;
+    margin-left: 200px;
+    width: 300px;
+   
+}
+span{
+    color: rgb(158, 0, 0);
+}
+.col1{
+    color: rgb(10, 63, 34);
+    width: 400px;
+    height: 750px;
+    margin: 20px;
+    border: 2px ridge rgb(44, 115, 128);
+   
+}
+.col1 img{
+    width: 325px;
+    margin: 15px;
+    margin-left: 35px;
+}
+.col1 img:hover{
+    width:395px ;
+    height: 300px;
+    margin: 0px;
+    margin-right: 0px;
+}
+
+
+.rowf{
+    display: flex;
+}
+button{
+    background-color: rgb(64, 225, 236);
+}
+button:hover{
+    background-color: rgb(51, 155, 155);
+}
+
+/*  Media query for 400px devices  */
+
+@media screen and (max-width:400px){
+    
+    .overlay{
+        position: absolute;
+        border: 2px ridge rgb(15, 15, 14);
+        
+        left: 5%;
+        box-shadow: 3px 4px 6px rgb(12, 12, 11);
+        width: 350px;
+        height: 200px;
+      
+    }
+    .overlay:hover{
+        position: absolute;
+        border: 4px ridge rgb(35, 53, 16);
+        top: 350px;
+        box-shadow: 4px 5px 6px rgb(10, 10, 10);
+        width: 360px;
+        height: 220px;
+    }
+    nav{
+        position: sticky;
+      }
+      p{
+        width: 300px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: justify;
+      }
+      .bio{
+        margin-left: 0px;
+        margin: 0px;
+        
+      }
+      
+      .bimg{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    
+      }
+      .bimg p{
+        margin: 0px;
+        margin-left: 35px;
+        
+      }
+      .bimg img{
+        width: 250px;
+        margin-left: 60px;
+        margin-top: 20px;
+      }
+
+      .imgg{
+        margin: 0px;
+        margin-left: 0px;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+    .col{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .col1{
+        margin-top: 0px;
+        margin-left: 10px;
+        width: 380px;
+        height: 900px;
+    }
+    .col1 img{
+        width: 300px;
+        height: 250px;
+        margin-left: 0px;
+        margin: 40px;
+    }
+    .col1 img:hover{
+        width:375px ;
+        height: 300px;
+        margin: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .rowf{
+        display: flex;
+        flex-direction: column;
+    }
+   h3{
+    margin: 0px;
+   }
+   h5{
+    margin: 0px;
+   }
+
+}
